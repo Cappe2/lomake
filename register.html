@@ -7,54 +7,66 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="jtn.css" />
+    <link rel="stylesheet" href="jtn.css"/>
 </head>
 <body style="background-color:powderblue">
 
-</body>
+<div class="container">
 
+    <h2>Rekisteröidy</h2>
+    <p>Täytä tiedot, jotta voit luoda käyttäjän.</p>
+    <hr> 
 
-<form action="lomake.html">
-<div class="container"></div>
-    <h1>Rekisteröidy</h1>
-        <p>Täytä tiedot, jotta voit luoda käyttäjän.</p>
-<hr> 
-    <br> 
-<label for="email"><b>Sähköposti</b></label>
-    <input type="text" placeholder="Sähköpostiosoite" name"Sähköposti" required>
-    <br>
-    <br>
-<label for="psw"><b>Salasana</b></label>
-        <input type="text" placeholder="Salasana" name"Salasana required>
-    <br>
-    <br>
-<label for="psw-repeat"><b>Salasana Uudestaan</b></label>
-    <input type="password" placeholder="Salasana Uudestaan" name="psw-repeat" required>
-    <br>
-
-    <br> 
-    <label for="Valitse Kieli"><b>Valitse Kieli</b></label>
-    <br> 
-    <select>
-        
+    <form action="register.html">
+        <label for="email"><b>Sähköposti</b></label>
+            <input type="text" placeholder="Sähköpostiosoite">
+            <br>
+            <br>
+        <label for="salasana"><b>Salasana</b></label>
+            <input type="text" placeholder="Salasana">
+            <br>
+            <br>
+        <label for="salasanauudestaan"><b>Salasana Uudestaan</b></label>
+            <input type="password" placeholder="Salasana Uudestaan">
+            <br>
+            <br> 
+        <label for="nimi"><b>Nimi</b></label>
+            <input type="text" placeholder="Nimi">
+            <br>
+            <br> 
+        <label for="osoite"><b>Osoite</b></label>
+            <input type="text" placeholder="Osoite"> 
+            <br>
+            <br> 
+        <label for="postinumero"><b>Postinumero</b></label>
+            <input type="text" placeholder="Postinumero">
+            <br>
+            <br> 
+        <label for="Valitse Kieli"><b>Valitse Kieli</b></label>
+        <br> 
+        <select>
             <option value="Suomi">Suomi</option>
             <option value="Ruotsi">Ruotsi</option>
             <option value="Venäjä">Venäjä</option>
-    
         </select>
-       
-        <head>
-             
-            <link rel="stylesheet" href="jtn.css"
+            
 
-        </head>
-    
-    
-
-    
-    
-        </body> 
+        <br>
+        <label for="Valitse Sukupuoli"><b>Valitse Sukupuoli</b></label>
+        <br>
+   
+            <select>
+                <option value="Nainen">Nainen</option>
+                <option value="Mies">Mies</option>
+                <option value="Jokin Muu">Jokin Muu</option>
+            </select>
+            <br>
+            <br>
+        <button>Lähetä</button>    
+    </form>
+</div>
+</body> 
 </html>
